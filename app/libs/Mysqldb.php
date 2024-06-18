@@ -5,7 +5,7 @@
 class MySQLdb{
   private $host = "localhost";
   private $usuario = "root";
-  private $clave = "root"; //XAMPP la clave es vacía, y en MAMP es "root"
+  private $clave = ""; //XAMPP la clave es vacía, y en MAMP es "root"
   private $db = "ecomerce";
   private $puerto = ""; //MAMP en Windows necesitamos el puerto
   private $conn;
